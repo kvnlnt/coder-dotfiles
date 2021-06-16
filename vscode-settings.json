@@ -1,0 +1,42 @@
+{
+  "editor.fontLigatures": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "breadcrumbs.enabled": true,
+  "cSpell.enabledLanguageIds": [
+    "json",
+    "jsonc",
+    "markdown",
+    "plaintext",
+    "restructuredtext",
+    "text",
+    "yaml",
+    "yml"
+  ],
+  "diffEditor.renderSideBySide": false,
+  "editor.accessibilitySuppaort": "off",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.detectIndentation": true,
+  "editor.dragAndDrop": false,
+  "editor.fontSize": 18,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": false,
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "editor.tokenColorCustomizations": {
+    "semanticHighlighting": true
+  },
+  "editor.trimAutoWhitespace": true,
+  "[go]": {
+    "editor.tabSize": 4
+  },
+  "go.formatTool": "goimports",
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Monokai Dimmed",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.iconTheme": "vscode-icons"
+}
