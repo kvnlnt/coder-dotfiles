@@ -20,3 +20,6 @@ ln -sf $DIR/.gitconfig $HOME
 echo "DOTFILES: Vscode"
 mkdir -p $HOME/.config/Code/User
 ln -sf $DIR/vscode-settings.json $HOME/.config/Code/User
+
+source $HOME/.bashrc
+source $HOME/.prompt
