@@ -1,3 +1,11 @@
+
+export NAMESPACE="kevinlint"
+export GOOGLE_PROJECT_ID="coder-dev-1"
+export PATH="$HOME/code/m/devbin:$PATH"
+export GOPATH="$HOME/go"
+export GOBIN="$GOPATH/bin/"
+export PATH="$PATH:$GOBIN"
+
 alias ll="ls -la"
 alias ld='ls -la --group-directories-first'
 alias lp='sed "s/:/\n/g" <<< "$PATH"'

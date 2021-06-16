@@ -4,25 +4,17 @@
 echo "DOTFILES: Setup"
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
-# Env
-echo "DOTFILES: Env"
-source $DIR/env.sh
-
 # Bash
 echo "DOTFILES: Bash"
-source $DIR/bash.sh
+ln -sf $DIR/.bashrc $HOME
 
 # Prompt
 echo "DOTFILES: Prompt"
-source $DIR/prompt.sh
+ln -sf $DIR/.prompt $HOME
 
 # Git
 echo "DOTFILES: Git"
 ln -sf $DIR/.gitconfig $HOME
-
-# GO
-echo "DOTFILES: Go"
-source $DIR/go.sh
 
 # VSCode
 echo "DOTFILES: Vscode"
